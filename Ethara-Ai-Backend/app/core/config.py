@@ -24,6 +24,7 @@ class Settings:
         "http://localhost:3000",
         "http://127.0.0.1:5173",
         "http://127.0.0.1:3000",
+        "https://etharaaidashboard.netlify.app",
     ]
 
     DEBUG: bool = os.getenv("DEBUG", "True").lower() == "true"
